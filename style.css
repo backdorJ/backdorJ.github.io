@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.container {
+    max-width: 1700px;
+    margin: 0 auto;
+}
+
+.example-1 {
+    min-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+}
+
+.example-1 img {
+    margin-bottom: 20px;
+    max-width: 200px;
+}
+
+.balbec-info {
+    margin-bottom: 20px;
+}
+
+.info-input input {
+    padding: 5px 15px;
+    overflow: none;
+    outline: none;
+    border-radius: 14px;
+}
+
+.btn-tag-name {
+    padding: 5px 15px;
+    border-radius: 14px;
+    background-color: transparent;
+    transition: background-color, color .2s ease;
+    cursor: pointer;
+}
+
+.btn-tag-name:hover {
+    background-color: black;
+    color: white;
+}
+
+#balbec-name {
+    font-weight: 800;
+    font-size: 60px;
+}
+
+.balbec-info {
+
+}
+
+.balbec-info textarea {
+    resize: none;
+    outline: none;
+}
+
+#balbec-description {
+    font-size: 20px;
+    font-weight: 700;
+}
